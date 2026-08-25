@@ -1,0 +1,28 @@
+Python-S supports syntax long wanted by Python programmers. Incremental and decrimental operators.
+Soon you will be able to add your own libraries. These will be seperate specialized parsers that
+you will need to add to the folder. The code writes into an intermediary file called output.py. 
+All libraries need to parse output.sys, since the core parser goes first.
+
+use lib library.extention
+example:
+lib Lib2.py 
+
+Current Base Python-S 1.00.00 supports:
+++
+--
+
+However, --X and ++X are not supported. y = x++ is the same case.
+
+$$ Comments
+
+example:
+$$These comments are cool
+
+that's it for now, but more will be added as time goes on.
+unfortunately, curly braces aren't here yet
+
+Took me only about 4 hours to make 1.00.01 lol.
+In the current compiler, ++, --, and $S are not safe if they are in comments or strings.
+
+And 30 mins later, 1.01.01 is out. 1.01.01 brought you $$. before, python-s used $. With the current
+compiler, that had obvious issues.
