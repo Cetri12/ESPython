@@ -32,5 +32,15 @@ I would personally like it if you made libraries. Send a link to a repository wi
 (I won't accept code files from strangers), and if i like it, i may list it under Main Libraries. 
 If your license allows, i will put it on a seperate branch of the repository.
 
-Current official python-s files
+Official libraries are written by me, Main libraries are sponsored by me, and all other are Custom libraries.
+
+Current Official Python-S Libraries:
+PS_Parser.py (The core parser). 8/25/2026. 
+
+Current Main Python-S Libraries:
+N/A
+
+
+
+
 
