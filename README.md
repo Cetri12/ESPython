@@ -36,6 +36,8 @@ Official libraries are written by me, Main libraries are sponsored by me, and al
 
 Current Official Python-S Libraries:
 PS_Parser.py (The core parser). 8/25/2026. 
+ColorsLib.py
+Script-S.py
 
 Current Main Python-S Libraries:
 N/A
