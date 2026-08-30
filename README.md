@@ -2,7 +2,7 @@ ESPython: Created 8/25/2026
 Originally called Python-S, but renamed on 8/30/2026
 
 
-Open ESPY_tutorial.txt, or read this:
+Open Tutorial.txt, or read this:
 
 ESPython is a python extentsion supporting syntax such as X++, and X--. ESPython is directly transpiled to python
 Also currently supports $$ as comments. Since X++ is transpiled, it becomes X += 1. So, things such as ++X, and Y = X++ are
@@ -20,9 +20,10 @@ lib Library.py python
 Libraries are not constrained to .py at all, you can code the library in anything you wish. If your OS can run it of course.
 
 How to use:
-Drag code.pys into the folder, then run ESPython_Main.py
+Drag code.esp into the folder, then run Run.py
 The code will be transpiled into ESPY_EXECUTE.py.
-output.pys is the intermediary file, all libraries will parse this directly. 
+output.esp is the intermediary file, all libraries will parse this directly. 
+After the libraries finish, output.esp will be copied to ESPY_EXECUTE.py
 
 "Libraries" are simply additional parsers that you can create. Under the terms of the Apache 2.0 License, you may create
 Libraries and distribute them as yours, as long as they weren't code taken from the parser. if they were, your library is
