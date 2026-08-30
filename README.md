@@ -11,13 +11,11 @@ invalid code.
 ❌++X
 ❌Y = X++
 
-Use lib [library.extention] to import a library.
+Use lib [library.extention] [runtime] to import a library.
 example:
-lib Library.py
+lib Library.py python
 
 Libraries are not constrained to .py at all, you can code the library in anything you wish. If your OS can run it of course.
-
-Since the current parser is ruthless, ++, --, and $$ will not be safe hidden inside strings or comments.
 
 How to use:
 Drag code.pys into the folder, then run Python-S_Main.py
