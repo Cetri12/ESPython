@@ -4,8 +4,7 @@ Originally called Python-S, but renamed on 8/30/2026
 
 Open Tutorial.txt, or read this:
 
-ESPython is a python extension supporting syntax such as X++, and X--. ESPython is directly transpiled to python
-Also currently supports $$ as comments. Since X++ is transpiled, it becomes X += 1. So, things such as ++X, and Y = X++ are
+ESPython is a python extension supporting custom syntax that is transpiled to python. ESPython currently supports $$ as comments, X++. and X-- in the base parser
 invalid code. 
 
 ✅X++
