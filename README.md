@@ -1,7 +1,8 @@
 Python-S libraries
 
 Official:
-PS_COLORSLIB.py (8/27/2026)
+COLORSLIB (8/27/2026)
+Script-SC
 
 Main:
 
