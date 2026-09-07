@@ -47,5 +47,6 @@ N/A
 
 
 
-
+Now with the unpackager, you don't have to sort unzipped files yourself.
+An Advanced lexer and Error system coming soon!
 
