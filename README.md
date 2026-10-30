@@ -1,6 +1,7 @@
 ESPython: Created 8/25/2026
 Originally called Python-S, but renamed on 8/30/2026
 
+This Porject has NOTHING to do with Spanish ESPython stands for Extensible Syntax Python
 
 Open Tutorial.txt, or read this:
 
