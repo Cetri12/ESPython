@@ -1,0 +1,37 @@
+ESPython supports syntax long wanted by Python programmers. Incremental and decrimental operators.
+Soon you will be able to add your own libraries. These will be seperate specialized parsers that
+you will need to add to the folder. The code writes into an intermediary file called output.py. 
+All libraries need to parse output.espython, since the core parser goes first.
+
+use lib library.extention runtime
+example:
+lib Lib2.py python
+
+this makes it easy for me to plug into subprocess to execute. use this format.
+
+Current Base ESPython 1.05.05 supports:
+++
+--
+
+(However, --X and ++X are not supported. y = x++ is the same case.)
+
+$$ Comments
+
+example:
+$$These comments are cool
+
+
+As of 1.05.05, escaped strings are now parsed properly 🥳.
+
+Additional Syntax Features are provided by the libraries.
+
+As of 1.02.02, the parser is not ruthless, sparing syntax in your strings and comments.
+
+As of 1.04.02, you can now have the parser take your own custom statement end syntax.
+You put each symbol per line. if you want to use "end" to end a statement, you can simply put it
+in the txt. Each symbol must have it's own line.
+
+ESPY_STATEMENT.txt -->Ends of Statements such as ;
+
+As of 1.06.05, you are able to to view file build data.
+As of 1.07.05, you can sort unzipped packages using the unpackager
