@@ -1,6 +1,0 @@
-$$Espython Test file.
-$$$$hmm
-print("text")
-a=1
-a++
-print(a)
